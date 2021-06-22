@@ -1,12 +1,14 @@
 
-let myVideo=document.createElement('video');
+const videoGrid=document.getElementById('video-grid')
+const myVideo=document.createElement('video');
 myVideo.muted=true;
 
+let myVideoStream
 navigator.mediaDevices.getUsedMedia({
     video:true,
     audio:true
 }).then(stream=>{
-    myVideo =stream;
+    myVideoStream =stream;
     addVideoStream(myVideo,stream);
 
 })
@@ -17,4 +19,5 @@ const addVideoStream=(video,stream)=>{
         video.play();
         
     })
+    videoGrid.append(video);
 }
