@@ -15,7 +15,7 @@
 
 .main__videos {
     flex-grow: 1;
-    background: url("https://www.vecteezy.com/blog/wp-content/uploads/2020/12/scifi-background-3.jpg");
+    background-image:url("https://www.vecteezy.com/blog/wp-content/uploads/2020/12/scifi-background-3.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
 
 .main__right {
     background-color: #242324;
-    border-left: 1px solid #3D3D42;
+    border-left: 1px solid #565669;
 }
 
 .main__controls {
@@ -101,4 +101,3 @@
 .unmute, .stop {
     color: #CC3B33;
 }
-
