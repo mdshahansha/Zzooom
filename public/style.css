@@ -15,7 +15,7 @@
 
 .main__videos {
     flex-grow: 1;
-    background-image:url("https://www.vecteezy.com/blog/wp-content/uploads/2020/12/scifi-background-3.jpg");
+    background-image: url("https://www.vecteezy.com/blog/wp-content/uploads/2020/12/scifi-background-3.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +27,8 @@
 }
 
 .main__right {
-    background-color: #242324;
-    border-left: 1px solid #565669;
+    background-image: url("https://qph.fs.quoracdn.net/main-qimg-8b585fb4a5c9fedbb899cfb0cf0331a7");
+    border-left: 1px solid #3D3D42;
 }
 
 .main__controls {
@@ -77,7 +77,7 @@
     overflow-y: auto;
 }
 
-.messages{
+.messages {
     color: white;
     list-style: none;
 }
@@ -98,6 +98,7 @@
     color: #EB534B;
 }
 
-.unmute, .stop {
+.unmute,
+.stop {
     color: #CC3B33;
 }
